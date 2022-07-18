@@ -39,10 +39,47 @@
 	font-size: 50px;
 }
 .MAP{
-	margin-top: 150px;
+	margin-top: 130px;
 	text-align: center;
 }
+.MAP_2{
+	text-align: center;
+	font-family: 微軟正黑體;
+	font-size: 28px;
+	font-weight: bolder;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	background-color: #FFB606;
+	margin-left: 120px;
+	margin-right: 120px;
+	line-height: 50px;
+}
+.MAP_3{
+	font-family: 微軟正黑體;
+	font-weight: bolder;
+	font-size: 22px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.MAP_4{
+	font-family: 微軟正黑體;
+}
+.MAP_5{
+	padding-left: 25px;
+}
 @media (max-width: 575.98px){
+	.HOME{
+		height: 300px;
+	}
+	.header{
+		height: 150px;
+	}
+	.H_h_BG{
+		font-size: 25px;
+		top: 3%;
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 @media (max-width: 767.98px){
@@ -55,6 +92,21 @@
 }
 
 @media (min-width: 576px){
+	.MAP_2{
+		font-size: 50px;
+		line-height: 80px;
+		margin-left: 350px;
+		margin-right: 350px;
+	}
+	.MAP_3{
+		font-size: 30px;
+	}
+	.MAP_4{
+		font-size: 20px;
+	}
+	.MAP_5{
+		font-size: 20px;
+	}
 }
 
 @media (min-width: 768px){
